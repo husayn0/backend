@@ -7,7 +7,7 @@ const sequelize = new Sequelize(
     host: process.env.DB_HOST || 'db-mysql-ams3-23469-do-user-15814820-0.c.db.ondigitalocean.com',
     port: process.env.DB_PORT || '25060',
     username: process.env.DB_USER || 'doadmin',
-    password: process.env.DB_PASSWORD || 'AVNS_AprPukxaOBJfl10VfQK',
+    password: process.env.DB_PASSWORD || 'password',
     database: process.env.DB_DATABASE || 'defaultdb',
     dialectOptions: {
         ssl: {

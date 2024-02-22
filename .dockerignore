@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+.idea
+.vscode
+*.env
+logs/
+tmp/
+__tests__/*
+cypress/*
+
+# Include these files despite previous patterns
+!Dockerfile
+!package.json
+!README.md

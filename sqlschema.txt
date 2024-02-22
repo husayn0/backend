@@ -1,0 +1,8 @@
+CREATE SCHEMA `taskuser` ;
+use  `taskuser` ;
+CREATE TABLE User (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+	fullname VARCHAR(50) NOT NULL,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    password_hash VARCHAR(255) NOT NULL
+);

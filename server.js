@@ -8,7 +8,7 @@ const fs = require('fs');
 const https = require('https');
 require('dotenv').config(); 
 var corsOptions = {
-    origin: ["http://localhost:4200", "http://localhost:3000"]
+    origin: "*"
 }; 
 app.use(bodyParser.json());
 app.use(cors(corsOptions));

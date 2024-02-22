@@ -11,7 +11,7 @@ services:
     environment:
       DB_HOST: db-mysql-ams3-23469-do-user-15814820-0.c.db.ondigitalocean.com
       DB_USER: doadmin
-      DB_PASSWORD: AVNS_AprPukxaOBJfl10VfQK
+      DB_PASSWORD: password
       DB_PORT: 25060
       DB_DATABASE: defaultdb
       DB_SSLMODE: REQUIRED

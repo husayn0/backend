@@ -2,7 +2,10 @@
 A full-stack web application with both frontend and backend components. The application includes user authentication and utilizes a Docker container for deployment on a Linux machine hosted on DigitalOcean.
 The application uses JWT for user authentication, and applying SSL connections all over the interactions.
 Developed using Angular 17 framework on the frontend, Node for the backend, MySQL for the database created on DigitalOcean.
+
+
 ![Untitled Diagram](https://github.com/husayn0/backend/assets/160388694/24fdfb62-74ea-45f6-8515-503f5472502f)
+
 
 ## Frontend
 [Frontend](https://github.com/husayn0/frontend)
